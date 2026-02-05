@@ -71,7 +71,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="bg-[#000000] h-[123px] w-full py-6 mt-auto border-t">
+      <div className="bg-[#000000] h-80 w-full py-6 mt-auto border-t">
         <div className="flex flex-col items-center space-y-3">
           <div className="flex space-x-4 text-gray-600">
             <a href="https://www.google.com" target="_blank" className="hover:text-blue-600 transition">

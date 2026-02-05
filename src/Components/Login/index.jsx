@@ -68,6 +68,7 @@ const LoginPage=()=>{
                 onChange={(e)=>setUserName(e.target.value)}
                 className="w-full px-3 py-2 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-red-600 mt-0"
               />
+              
             </div>
             <div>
               <label className="block text-sm text-gray-400  mb-3">
@@ -90,7 +91,10 @@ const LoginPage=()=>{
               Login
             </button>
           </form>
+           <p className="text-white">UserName:rahul</p>
+              <p className="text-white">Password:rahul@2021</p> 
         </div>
+       
       </div>
             </div>
         </div>

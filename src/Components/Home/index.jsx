@@ -60,7 +60,6 @@ const HomePage = () => {
     loadAllData();
   }, []);
 
-  // ✅ Show loader while loading
   if (loading) {
     return <Loader />;
   }
@@ -73,15 +72,13 @@ const HomePage = () => {
       </div>
 
       <div className="bg-[#000000] w-screen">
-        {/* Trending Section */}
+ 
         <div className="p-10">
           <h1 className="text-white text-[24px] font-bold mb-15">Trending Now</h1>
           
           <Slide data={currentData}  />
           
         </div>
-
-        {/* Originals Section */}
         <div className="p-12">
           <h1 className="text-white text-[24px] font-bold mb-15">Originals</h1>
           <Slide data={originalsData} />
